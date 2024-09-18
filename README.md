@@ -30,7 +30,3 @@ For the second image, certain parts of the boat and water contributed positively
 As shown in the figure, in the first image, regions including parts of the neck and the back of the bird have positively contributed to the correct classification as `American_egret`, while the bird's eyes and beak have undermined the possibility of the first class and strengthened the likelihood of belonging to other classes like `crane` or `little_blue_heron`.
 
 For the second image, most parts of the boat, in addition to part of the background, led to the decision to classify this input as a `speedboat`. However, similar to the LIME result, big white parts of the boat led the model to classify it in other classes like `lifeboat`.
-
----
-
-## Code Details
